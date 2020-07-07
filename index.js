@@ -6,12 +6,12 @@ return `Welcome, ${name}. You are number ${CafeDeli.length} in line.`;
 }
 
 function nowServing(CafeDeli) {
-    let i = 0
+    let i = 0;
     while(i < cafeDeli.length) {
       i++;
     }
    if (cafeDeli === 0){
-      return 'There is nobody waiting to be served!'
+      return 'There is nobody waiting to be served!';
    }else{
     return `Currently serving ${serve}.`;
   }
