@@ -10,7 +10,7 @@ function nowServing(CafeDeli) {
     var serve = cafeDeli[0];
     cafeDeli.shift();
     return `Currently serving ${serve}.`;
-  } else{
+  } else {
     return 'There is nobody waiting to be served!';
   }
 }
