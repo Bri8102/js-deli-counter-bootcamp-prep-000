@@ -14,3 +14,7 @@ function nowServing(CafeDeli) {
     return 'There is nobody waiting to be served!';
   }
 }
+
+function currentLine() {
+  
+}
