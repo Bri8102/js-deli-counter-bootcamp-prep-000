@@ -7,7 +7,9 @@ return `Welcome, ${name}. You are number ${CafeDeli.length} in line.`;
 
 function nowServing(CafeDeli) {
     let i = 0
-    while(i > )
+    while(i < cafeDeli.length) {
+      i++;
+    }
     i++;
     var serve = cafeDeli[0];
     cafeDeli.shift();
