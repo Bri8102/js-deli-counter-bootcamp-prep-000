@@ -9,6 +9,8 @@ function nowServing(CafeDeli) {
   if (cafeDeli.length > 0) {
     var serve = cafeDeli[0]
     cafeDeli.shift();
-    return
-  } 
+    return `Currently serving ${serve}.`;
+  } else{
+    return 'There is nobody waiting to be served!'
+  }
 }
