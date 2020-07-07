@@ -10,11 +10,10 @@ function nowServing(CafeDeli) {
     while(i < cafeDeli.length) {
       i++;
     }
-    var serve = cafeDeli[0];
-    cafeDeli.shift();
+   if (cafeDeli === 0){
+      return 'There is nobody waiting to be served!'
+   }else{
     return `Currently serving ${serve}.`;
-  } else {
-    return 'There is nobody waiting to be served!';
   }
 }
 
