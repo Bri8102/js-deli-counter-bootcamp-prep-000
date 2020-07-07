@@ -5,16 +5,9 @@ function takeANumber(CafeDeli,name) {
 return `Welcome, ${name}. You are number ${CafeDeli.length} in line.`;
 }
 
-function nowServing(CafeDeli) {
-    let i = 0;
-    while(i < cafeDeli.length) {
-      i++;
-    }
-   if (cafeDeli.length === 0){
-      return `There is nobody waiting to be served!`;
-   }else{
-    return `Currently serving ${cafeDeli.shift()}.`;
-  }
+function nowServing(katzDeliLine){
+  if (katzDeliLine.length > 0) return `Currently serving ${katzDeliLine.shift()}.`;
+  else return "There is nobody waiting to be served!";
 }
 
   function currentLine(line) {
