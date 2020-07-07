@@ -10,7 +10,6 @@ function nowServing(CafeDeli) {
     while(i < cafeDeli.length) {
       i++;
     }
-    i++;
     var serve = cafeDeli[0];
     cafeDeli.shift();
     return `Currently serving ${serve}.`;
